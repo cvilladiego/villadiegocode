@@ -3,7 +3,10 @@ import { datos } from "../../data/data";
 import imgPerfil from '../../assets/img/ImgPerfil.svg';
 import imgProyectos from '../../assets/img/ImgProyectos.svg';
 import styles from './inicio.module.css';
+import Boton from "../boton/Boton";
+
 const Inicio = () => {
+    const keys = [3,6,9,7];
   return (
     <>
       <Navbar />
@@ -12,6 +15,16 @@ const Inicio = () => {
           {datos.map(dato => <div className={styles.containerPerfil}>
             <p>{dato.perfil}</p>
           </div> )}
+          
+          <Boton titulo='Conoce más sobre mi'/>
+      </section>
+
+      <section className={styles.containerHabilidades}>
+        <div className={styles.containerHabilidadesDiv}>
+          {/* PENDIENTE CREAR SISTEMA DE GRILLAS */}
+
+        </div>
+
       </section>
     </>
   );
