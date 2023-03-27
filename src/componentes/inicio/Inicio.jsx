@@ -13,9 +13,12 @@ import wordpress from '../../assets/logos/wordpress-icon.svg';
 import git from '../../assets/logos/git-icon.svg';
 import styles from './inicio.module.css';
 import Boton from "../boton/Boton";
+import TarjetaProyectos from "../tarjetaProyectos/TarjetaProyectos";
+import PiePagina from "../footer/PiePagina";
 
-const Inicio = () => {
-    const keys = [3,6,9,7];
+
+
+const Inicio = () => {  
   return (
     <>
       <Navbar />
@@ -49,10 +52,31 @@ const Inicio = () => {
       </section>
 
       <section className={styles.containerProyectos}>
+
        <div className={styles.containerProyectosTitulo}>
           <h2>Mis Proyectos</h2>
         </div>
+
+        <div className={styles.containerImgProyecto}>
+         <img className={styles.imgProyecto} src={imgProyectos} alt="IMG PROYECTOS" />
+        </div>
+
+        <div className={styles.containerProyectoInformacion}>
+         {datos.map(dato => <p> {dato.informacionProyecto} </p>)}
+        </div>
+        <TarjetaProyectos/>
+        <TarjetaProyectos/>
+        <TarjetaProyectos/>
+        <TarjetaProyectos/>
+        
+        <div className={styles.containerBotonProyectos}>
+          <Boton titulo='Más proyectos aquí'/>
+        </div>
+
       </section>
+
+      <PiePagina texto='Desarrollado por villadiegocode - Carlos Villadiego'/>
+
     </>
   );
 };

@@ -135,3 +135,43 @@
     font-size: 1rem;
 
 }
+
+
+.containerImgProyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin-top: 35px;
+    
+
+}
+
+.imgProyecto{
+    width: 85%;
+    
+}
+
+.containerProyectoInformacion{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 200;
+    
+
+}
+
+.containerBotonProyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
