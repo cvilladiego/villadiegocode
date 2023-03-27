@@ -2,6 +2,15 @@ import Navbar from "../Navbar/Navbar";
 import { datos } from "../../data/data";
 import imgPerfil from '../../assets/img/ImgPerfil.svg';
 import imgProyectos from '../../assets/img/ImgProyectos.svg';
+import html from '../../assets/logos/html-icon.svg';
+import css from '../../assets/logos/css-icon.svg';
+import sass from '../../assets/logos/sass-icon.svg';
+import js from '../../assets/logos/javascrip-icon.svg';
+import angular from '../../assets/logos/angular-icon.svg';
+import reactIcon from '../../assets/logos/react-icon.svg';
+import php from '../../assets/logos/php-icon.svg';
+import wordpress from '../../assets/logos/wordpress-icon.svg';
+import git from '../../assets/logos/git-icon.svg';
 import styles from './inicio.module.css';
 import Boton from "../boton/Boton";
 
@@ -20,11 +29,29 @@ const Inicio = () => {
       </section>
 
       <section className={styles.containerHabilidades}>
-        <div className={styles.containerHabilidadesDiv}>
-          {/* PENDIENTE CREAR SISTEMA DE GRILLAS */}
 
+        <div className={styles.containerHabilidadesTitulo}>
+          <h2>Mis habilidades</h2>
         </div>
 
+        <div className={styles.containerHabilidadesIcons}>
+          <img className={styles.htmlIcon} src={html} alt="HTML"/>
+          <img className={styles.cssIcon} src={css} alt="CSS"/>
+          <img className={styles.sassIcon} src={sass} alt="SASS" />
+          <img className={styles.jsIcon} src={js} alt="JAVASCRIPT"/>
+          <img className={styles.agularIcon} src={angular} alt="ANGULAR" />
+          <img className={styles.reactIcon}  src={reactIcon} alt="REACT"/>
+          <img className={styles.phpIcon}  src={php} alt="PHP"/>
+          <img className={styles.wordpressIcon} src={wordpress} alt="WORDPRESS"/>
+          <img  className={styles.gitIcon} src={ git}  alt="GIT"/>
+        </div>
+
+      </section>
+
+      <section className={styles.containerProyectos}>
+       <div className={styles.containerProyectosTitulo}>
+          <h2>Mis Proyectos</h2>
+        </div>
       </section>
     </>
   );
