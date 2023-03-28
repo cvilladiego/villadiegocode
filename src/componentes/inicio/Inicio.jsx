@@ -64,10 +64,12 @@ const Inicio = () => {
         <div className={styles.containerProyectoInformacion}>
          {datos.map(dato => <p> {dato.informacionProyecto} </p>)}
         </div>
-        <TarjetaProyectos/>
-        <TarjetaProyectos/>
-        <TarjetaProyectos/>
-        <TarjetaProyectos/>
+        
+        <TarjetaProyectos nameclass={styles.tarjtaProyecto} titulo="primera tarjeta"/>
+        <TarjetaProyectos  nameclass={styles.tarjtaProyecto2} titulo='segunda tarjeta 2'/>
+        <TarjetaProyectos  nameclass={styles.tarjtaProyecto3} titulo='segunda tarjeta 3'/>
+        <TarjetaProyectos  nameclass={styles.tarjtaProyecto4} titulo='cuarta tarjeta'/>
+        
         
         <div className={styles.containerBotonProyectos}>
           <Boton titulo='Más proyectos aquí'/>

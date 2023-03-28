@@ -175,3 +175,67 @@
     align-items: center;
     margin-bottom: 90px;
 }
+
+.tarjtaProyecto{
+    width: 100%;
+    height: 125px;
+    background-color: #01E3C6;
+    background-image: url('../../assets/img/fondoTarjeta1.svg');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 7px #06AE98;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+.tarjtaProyecto2{
+    width: 100%;
+    height: 125px;
+    background-color:#00B0FF;
+    background-image: url('../../assets/img/fondoTarjeta2.svg');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 7px #019DE3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tarjtaProyecto3{
+    width: 100%;
+    height: 125px;
+    background-color:#F9A826;
+    background-image: url('../../assets/img/fondoTarjeta3.svg');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 7px #E18E07;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.tarjtaProyecto4{
+    width: 100%;
+    height: 125px;
+    background-color:#F50057;
+    background-image: url('../../assets/img/fondoTarjeta4.svg');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 7px #C30549;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
