@@ -9,3 +9,20 @@
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
   }
+
+  *::-webkit-scrollbar{
+    width: 7px;
+  }
+*::-webkit-scrollbar-track{
+  background-color: transparent;
+  
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #C84726;
+  border-radius: 10px;
+  
+
+}
+
+
