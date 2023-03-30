@@ -15,25 +15,25 @@ import styles from "./inicio.module.css";
 import Boton from "../boton/Boton";
 import TarjetaProyectos from "../tarjetaProyectos/TarjetaProyectos";
 import PiePagina from "../footer/PiePagina";
-
+import { Link } from "react-router-dom";
 const Inicio = () => {
-  window.onload = ()=>{
-    //funcion que muestra el loader y el container 
-    setTimeout(()=>{
-        const loader = document.getElementById('center');
-      loader.style.display = 'none';
-      const container = document.getElementById('container');
-      container.removeAttribute('hidden');
-    },1800)
-  }
+  window.onload = () => {
+    //funcion que muestra el loader y el container
+    setTimeout(() => {
+      const loader = document.getElementById("center");
+      loader.style.display = "none";
+      const container = document.getElementById("container");
+      container.removeAttribute("hidden");
+    }, 1800);
+  };
   return (
     <>
-    {/* loader */}
-    <div className={styles.centered} id="center">
-    <div className={styles.blob1}></div>
-	  <div className={styles.blob2}></div>
-    </div>
-    {/* fin del loader */}
+      {/* loader */}
+      <div className={styles.centered} id="center">
+        <div className={styles.blob1}></div>
+        <div className={styles.blob2}></div>
+      </div>
+      {/* fin del loader */}
 
       <div id="container" hidden>
         <Navbar />

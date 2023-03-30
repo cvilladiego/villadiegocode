@@ -13,6 +13,8 @@ const rutas = createBrowserRouter([
   {path:'/', element:<Inicio/>},
   {path:'*', element:<h1>Opps, ruta no encontrada</h1>}
 
+  
+
 ]);
 
 
