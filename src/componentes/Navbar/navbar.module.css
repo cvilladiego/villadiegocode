@@ -26,6 +26,11 @@ nav {
   height: 65px;
   display: flex;
   flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 2.6px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
   
   
 

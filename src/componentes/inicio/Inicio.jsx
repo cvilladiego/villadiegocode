@@ -18,6 +18,7 @@ import PiePagina from "../footer/PiePagina";
 
 const Inicio = () => {
   window.onload = ()=>{
+    //funcion que muestra el loader y el container 
     setTimeout(()=>{
         const loader = document.getElementById('center');
       loader.style.display = 'none';
