@@ -1,0 +1,25 @@
+.containerAbout{
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 90%;
+    max-width: 320px;
+    height: auto;
+   
+}
+.perfilImg{
+    flex-shrink: 0;
+    height: calc(150px + 10vw);
+    width: calc(150px + 10vw);
+    margin: 25px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
+
+ 
+}
