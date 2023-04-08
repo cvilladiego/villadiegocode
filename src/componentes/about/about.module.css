@@ -1,3 +1,8 @@
+:root{
+    --orange-color: #C84726;
+    --gray-color: #E6E6E6;
+}
+
 .containerAbout{
     margin: 0 auto;
     margin-top: 80px;
@@ -22,4 +27,26 @@
 
 
  
+}
+
+.containerPerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    min-width: 320px;
+    
+
+}
+
+.perfilTitulo{
+    color: var(--orange-color);
+
+}
+
+.perfilSubTitulo{
+    color: var(--gray-color);
+    text-align: right;
 }
