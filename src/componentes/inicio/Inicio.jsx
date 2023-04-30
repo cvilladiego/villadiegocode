@@ -17,30 +17,16 @@ import TarjetaProyectos from "../tarjetaProyectos/TarjetaProyectos";
 import PiePagina from "../footer/PiePagina";
 import { Link } from "react-router-dom";
 const Inicio = () => {
-  window.onload = () => {
-    //funcion que muestra el loader y el container
-    setTimeout(() => {
-      const loader = document.getElementById("center");
-      loader.style.display = "none";
-      const container = document.getElementById("container");
-      container.removeAttribute("hidden");
-    }, 1800);
-  };
+ 
   return (
     <>
-      {/* loader */}
-      <div className={styles.centered} id="center">
-        <div className={styles.blob1}></div>
-        <div className={styles.blob2}></div>
-      </div>
-      {/* fin del loader */}
 
-      <div id="container" hidden>
+      <div id="container">
         <Navbar />
         <section className={styles.containerImgPerfil}>
           <img className={styles.imgPerfil} src={imgPerfil} alt="IMG PERFIL" />
           {datos.map((dato) => (
-            <div className={styles.containerPerfil}>
+            <div key={dato.id} className={styles.containerPerfil}>
               <p>{dato.perfil}</p>
             </div>
           ))}
@@ -85,7 +71,7 @@ const Inicio = () => {
 
           <div className={styles.containerProyectoInformacion}>
             {datos.map((dato) => (
-              <p> {dato.informacionProyecto} </p>
+              <p>  {dato.informacionProyecto} </p>
             ))}
           </div>
 
