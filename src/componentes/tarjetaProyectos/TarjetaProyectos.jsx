@@ -1,12 +1,12 @@
 import styles from './tarjetaproyectos.module.css';
-import {Link} from 'react-router-dom';
-function TarjetaProyectos({nameclass, titulo }) {
+
+function TarjetaProyectos({nameclass, titulo, imagen, parrafo}) {
   return (
     <div className={styles.containerTarjetaProyecto}>
       <div className={nameclass}>
-       <h3 className={styles.titulo}>{titulo}
-       
-       </h3>
+        <img src={imagen} />
+       <h4>{titulo}</h4>
+       <p> {parrafo} </p>
       
        
       </div>

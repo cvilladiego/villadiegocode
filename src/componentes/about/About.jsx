@@ -1,7 +1,13 @@
 import Navbar from "../Navbar/Navbar";
 import styles from "./about.module.css";
 import imgPerfil from "../../assets/img/IMG_0492.jpg";
+import contactImg from '../../assets/logos/contact-us.svg';
 import { datos } from "../../data/data";
+import PiePagina from "../footer/PiePagina";
+
+
+
+
 
 function About() {
   return (
@@ -9,7 +15,7 @@ function About() {
       <Navbar />
       <section>
         <div className={styles.containerAbout}>
-          <img className={styles.perfilImg} src={imgPerfil} alt="PERFIL" />
+         
         </div>
       </section>
 
@@ -20,8 +26,25 @@ function About() {
           {datos.map(  dato2 => <p>{dato2.perfilProfesional}</p>)}
           
         </div>
+        
       </section>
+
+      <section>
+        <div className={styles.containerTarjetaAbout}>
+          <div className={styles.tarjetaContacto}>
+            <img src={contactImg} alt="IMAGEN CONTACTO" />
+            <h4>HABLEMOS..!</h4>
+            <p>+573007462735</p>
+            <p>carlovinar93@gmail.com</p>
+          </div>
+
+        </div>
+      </section>
+      <PiePagina texto="Desarrollado por villadiegocode - Carlos Villadiego" />
+      
+
     </>
+    
   );
 }
 

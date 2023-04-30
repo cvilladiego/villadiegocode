@@ -14,9 +14,14 @@ import git from "../../assets/logos/git-icon.svg";
 import styles from "./inicio.module.css";
 import Boton from "../boton/Boton";
 import TarjetaProyectos from "../tarjetaProyectos/TarjetaProyectos";
+import angulartarjeta from '../../assets/logos/angular-tarjeta.svg';
+import jstarjeta from '../../assets/logos/javascript-tarjeta.svg';
+import htmltarjeta from '../../assets/logos/html5-tarjeta.svg';
+import csstarjeta from '../../assets/logos/css-tarjeta.svg';
 import PiePagina from "../footer/PiePagina";
-import { Link } from "react-router-dom";
 const Inicio = () => {
+ 
+
  
   return (
     <>
@@ -72,24 +77,34 @@ const Inicio = () => {
           <div className={styles.containerProyectoInformacion}>
             {datos.map((dato) => (
               <p>  {dato.informacionProyecto} </p>
+              
+              
             ))}
           </div>
 
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto}
-            titulo="primera tarjeta"
+            titulo="RICK Y MORTHY"
+            imagen={angulartarjeta}
+            parrafo="Maravillosa web en Angular consuminendo la API de Rick and Morthy"
           />
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto2}
-            titulo="segunda tarjeta 2"
+            titulo="TODOPELISXD"
+            imagen={jstarjeta}
+            parrafo='Increible web creada con Javascript, HTML y CSS puros, consumiendo la API de TheMovieDB'
           />
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto3}
-            titulo="segunda tarjeta 3"
+            titulo="WEB VILLADIEGO"
+            imagen={htmltarjeta}
+            parrafo='Una web desarrollada con HTML y CSS puro y duro, muestra información sobre mi perfil y mis conocimientos '
           />
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto4}
-            titulo="cuarta tarjeta"
+            titulo="BATATABIT"
+            imagen={csstarjeta}
+            parrafo='Mi primera web creada con CSS y HTML puros, utilizando metologia BEM, muestra información quemada sobre divisas virtuales'
           />
 
           <div className={styles.containerBotonProyectos}>

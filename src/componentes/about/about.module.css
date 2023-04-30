@@ -4,49 +4,81 @@
 }
 
 .containerAbout{
-    margin: 0 auto;
-    margin-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
     font-size: 24px;
     width: 90%;
     max-width: 320px;
     height: auto;
    
 }
-.perfilImg{
-    flex-shrink: 0;
-    height: calc(150px + 10vw);
-    width: calc(150px + 10vw);
-    margin: 25px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
-
- 
-}
 
 .containerPerfil{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 90%;
+    margin: 0 auto;
     max-width: 500px;
-    min-width: 320px;
+    margin-bottom: 30px;
     
 
 }
 
 .perfilTitulo{
     color: var(--orange-color);
+    text-align: center;
 
 }
 
 .perfilSubTitulo{
     color: var(--gray-color);
-    text-align: right;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.0rem;
+}
+
+.containerPerfil p{
+    font-size: 15px;
+    
+}
+
+.containerTarjetaAbout{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+   
+}
+
+.tarjetaContacto{
+    width: 100%;
+    height: 170px;
+    background-color: #01E3C6;
+    border-radius: 20px;
+    box-shadow: 0px 7px #06AE98;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color:#0D283A;
+}
+
+.tarjetaContacto img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.tarjetaContacto h4{
+    margin-top: 10px;
+}
+
+.tarjetaContacto p{
+    margin-left: 15px;
+    margin-right: 15px;
 }

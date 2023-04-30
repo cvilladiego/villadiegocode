@@ -180,76 +180,121 @@
 
 .tarjtaProyecto{
     width: 100%;
-    height: 125px;
+    height: 170px;
     background-color: #01E3C6;
-    background-image: url('../../assets/img/fondoTarjeta1.svg');
-    background-repeat: no-repeat;
     border-radius: 20px;
     box-shadow: 0px 7px #06AE98;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
+    color:#0D283A;
+    
     
 
+}
+
+.tarjtaProyecto img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.tarjtaProyecto h4{
+    margin-top: 10px;
+}
+
+.tarjtaProyecto p{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
 
 .tarjtaProyecto2{
     width: 100%;
-    height: 125px;
+    height: 170px;
     background-color:#00B0FF;
-    background-image: url('../../assets/img/fondoTarjeta2.svg');
-    background-repeat: no-repeat;
     border-radius: 20px;
     box-shadow: 0px 7px #019DE3;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
+    color:#0D283A;
 
+}
+
+.tarjtaProyecto2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.tarjtaProyecto2 h4{
+    margin-top: 10px;
+}
+
+.tarjtaProyecto2 p{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .tarjtaProyecto3{
     width: 100%;
-    height: 125px;
+    height: 170px;
     background-color:#F9A826;
-    background-image: url('../../assets/img/fondoTarjeta3.svg');
-    background-repeat: no-repeat;
     border-radius: 20px;
     box-shadow: 0px 7px #E18E07;
-     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
+    color:#0D283A;
 
+}
+
+.tarjtaProyecto3 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.tarjtaProyecto3 h4{
+    margin-top: 10px;
+}
+
+.tarjtaProyecto3 p{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
 .tarjtaProyecto4{
     width: 100%;
-    height: 125px;
+    height: 170px;
     background-color:#F50057;
-    background-image: url('../../assets/img/fondoTarjeta4.svg');
-    background-repeat: no-repeat;
     border-radius: 20px;
     box-shadow: 0px 7px #C30549;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
+    color:#0D283A;
 
 }
-
-/* LOADER */
-.container{
-
+.tarjtaProyecto4 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
 }
+.tarjtaProyecto4 h4{
+    margin-top: 10px;
+}
+
+.tarjtaProyecto4 p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
 .centered{
 	width:400px;
 	height:400px;

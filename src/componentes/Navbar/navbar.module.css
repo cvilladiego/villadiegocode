@@ -24,7 +24,7 @@
 .containerMenuFollow{
   display: flex;
   flex-direction: row;
-  gap: 3px;
+  gap: 8px;
 
 }
 
