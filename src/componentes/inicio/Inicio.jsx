@@ -87,28 +87,32 @@ const Inicio = () => {
             titulo="RICK Y MORTHY"
             imagen={angulartarjeta}
             parrafo="Maravillosa web en Angular consuminendo la API de Rick and Morthy"
+            urlProyecto='#'
           />
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto2}
             titulo="TODOPELISXD"
             imagen={jstarjeta}
             parrafo='Increible web creada con Javascript, HTML y CSS puros, consumiendo la API de TheMovieDB'
+            urlProyecto='https://app-peliculas-e2783.firebaseapp.com/'
           />
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto3}
             titulo="WEB VILLADIEGO"
             imagen={htmltarjeta}
             parrafo='Una web desarrollada con HTML y CSS puro y duro, muestra información sobre mi perfil y mis conocimientos '
+            urlProyecto='https://cvilladiego.github.io/'
           />
           <TarjetaProyectos
             nameclass={styles.tarjtaProyecto4}
             titulo="BATATABIT"
             imagen={csstarjeta}
             parrafo='Mi primera web creada con CSS y HTML puros, utilizando metologia BEM, muestra información quemada sobre divisas virtuales'
+            urlProyecto='#'
           />
 
           <div className={styles.containerBotonProyectos}>
-            <Boton titulo="Más proyectos aquí" />
+            <Boton titulo="Más proyectos en github" urlgithub='https://github.com/cvilladiego' />
           </div>
         </section>
 

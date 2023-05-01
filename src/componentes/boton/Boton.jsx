@@ -1,8 +1,9 @@
 import styles from './boton.module.css';
-function Boton({titulo}) {
+function Boton({titulo, urlgithub}) {
   return (
    <>
-    <button className={styles.buttonPrimary}> {titulo} </button>
+    <button onClick={()=> window
+    .open(urlgithub)} className={styles.buttonPrimary}> {titulo} </button>
    
    
    </>

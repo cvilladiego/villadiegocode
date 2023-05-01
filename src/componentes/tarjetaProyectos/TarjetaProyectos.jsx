@@ -1,8 +1,8 @@
 import styles from './tarjetaproyectos.module.css';
 
-function TarjetaProyectos({nameclass, titulo, imagen, parrafo}) {
+function TarjetaProyectos({nameclass, titulo, imagen, parrafo, urlProyecto}) {
   return (
-    <div className={styles.containerTarjetaProyecto}>
+    <div onClick={()=> window.open(urlProyecto)} className={styles.containerTarjetaProyecto}>
       <div className={nameclass}>
         <img src={imagen} />
        <h4>{titulo}</h4>
