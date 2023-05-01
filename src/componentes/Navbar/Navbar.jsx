@@ -22,8 +22,8 @@ const Navbar = () => {
       </div>
 
       <div className={styles.containerMenuFollow}>
-        <img src={followLinkedin} alt="LINKEDIN" />
-        <img src={followTwitter} alt="TWITTER" />
+        <img onClick={()=> window.open('https://www.linkedin.com/in/carlos-villadiego-b443911b8/')} src={followLinkedin} alt="LINKEDIN" />
+        <img onClick={()=> window.open('https://twitter.com/villadiegocode')} src={followTwitter} alt="TWITTER" />
 
       </div>
 
