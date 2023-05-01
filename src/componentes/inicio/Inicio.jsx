@@ -108,7 +108,7 @@ const Inicio = () => {
             titulo="BATATABIT"
             imagen={csstarjeta}
             parrafo='Mi primera web creada con CSS y HTML puros, utilizando metologia BEM, muestra información quemada sobre divisas virtuales'
-            urlProyecto='#'
+            urlProyecto='https://github.com/cvilladiego/batatabit.github.io'
           />
 
           <div className={styles.containerBotonProyectos}>

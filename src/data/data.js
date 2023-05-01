@@ -4,7 +4,7 @@ export const datos = [
     nombre: "Carlos Villadiego",
     profesion: "Desarrollador web JR",
     perfil:
-      "Mi nombres es Carlos Villadiego, soy Desarrollador web JR Full Stack y Técnico en sistemas.",
+      "Mi nombres es Carlos Villadiego, soy Desarrollador web JR Full Stack, Técnico en sistemas y apasionado por la tecnología.",
   },
     { 
       id:2,
