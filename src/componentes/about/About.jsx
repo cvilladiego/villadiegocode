@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import styles from "./about.module.css";
-import imgPerfil from "../../assets/img/IMG_0492.jpg";
+import imgPerfil from "../../assets/img/IMG_0492-removebg-preview.png";
 import contactImg from '../../assets/logos/contact-us.svg';
 import { datos } from "../../data/data";
 import PiePagina from "../footer/PiePagina";
@@ -14,7 +14,8 @@ function About() {
     <>
       <Navbar />
       <section>
-        <div className={styles.containerAbout}>
+        <div className={styles.containerAboutImg}>
+          <img src={imgPerfil} alt="IMAGEN PERFIL" />
          
         </div>
       </section>

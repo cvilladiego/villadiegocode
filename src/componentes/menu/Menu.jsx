@@ -5,7 +5,7 @@ function Menu() {
     <div className={styles.containerMenuToggle}>
     <ul>
       <li>
-      <Link to={'/home'}>Inicio</Link>
+      <Link to={'/'}>Inicio</Link>
       </li>
 
       <li>
@@ -13,11 +13,11 @@ function Menu() {
       </li>
 
       <li>
-        <a href="">Proyectos</a>
+        <a href="#">Proyectos</a>
       </li>
 
       <li>
-        <a href="">Contacto</a>
+        <a href="#">Contacto</a>
       </li>
     </ul>
   </div>

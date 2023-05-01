@@ -12,7 +12,6 @@ import About from './componentes/about/About';
 //RUTAS
 const rutas = createBrowserRouter([
   {path:'/', element:<Inicio/>},
-  {path:'home', element:<Inicio/>},
   {path:'about', element: <About/>},
   {path:'*', element:<h1>Opps, ruta no encontrada</h1>}
 
